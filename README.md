@@ -31,9 +31,9 @@ PriceTrack takes raw phone specs (RAM, battery, camera, screen, etc.) and predic
 
 ## Design system
 
-PriceTrack's plots use a single consistent palette (`main.py`) instead of ad hoc colors:
+PriceTrack's plots use a single brand-gradient-inspired palette (`main.py`) instead of ad hoc colors:
 
-- **Signature palette** — a calm teal → amber pairing (`#2A9D8F` for test accuracy bars, `#E76F51` for CV mean/std markers), used consistently across every comparison chart
+- **Signature palette** — a purple → blue pairing (`#8C7CFF` / `#6C5CE7` for test accuracy bars, `#3E7BFA` for CV mean/std markers), the same diagonal purple-to-blue identity used across the comparison charts
 - **Confusion-matrix heatmaps** — Blues for the Weighted Voting ensemble, Greens for Stacking, so the two are visually distinguishable at a glance
 - **Clean, minimal chart chrome** — no gridline clutter, annotated bar values, and a single legend per figure
 
